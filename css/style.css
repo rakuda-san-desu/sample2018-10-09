@@ -2,7 +2,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  }
+}
 
 a {
   color: #333333;
@@ -30,8 +30,7 @@ body {
   margin: 0 auto;
 }
 
-
-/* レスポンシブ時表ヘッダーメニュー　オフ*/
+/* レスポンシブ時ヘッダーメニュー　オフ*/
 .accbox {
   display: none;
 }
@@ -56,7 +55,7 @@ header {
   align-items: center;
 }
 
-#headerRogo{
+#headerRogo {
   margin: 0;
   display: -webkit-flex;
   display: flex;
@@ -75,7 +74,7 @@ header {
   margin-bottom: 10px;
 }
 
-#headerInfo p, #mail{
+#headerInfo p, #mail {
   display: block;
   background-color: #F4F4F6;
   border-radius: 22px;
@@ -86,8 +85,10 @@ header {
 #arrow .fa {
   display: none;
 }
+/* ページヘッダー部分ここまで */
 
-/* ヘッダー部分　画像スライド */
+
+/* 画像スライド */
 #headImg {
   margin: 30px auto;
 }
@@ -100,7 +101,8 @@ header {
   position: absolute;
   top: 20px;
   left: 20px;
-  font-size: 48px;;
+  font-size: 48px;
+  ;
   color: #FEFFFF;
   opacity: 0.9;
   text-shadow: 1px 1px 1px #333333;
@@ -112,7 +114,7 @@ header {
   width: 100%;
 }
 
-/* ヘッダー部分　グローバルナビ */
+/* グローバルナビ */
 #globalNavi {
   background-color: #EFC7C2;
   margin-bottom: 30px;
@@ -125,10 +127,9 @@ header {
   display: flex;
   justify-content: space-between;
   -webkit-ustify-content: space-between;
-
 }
 
-#globalNavi ul li a{
+#globalNavi ul li a {
   display: block;
   font-weight: bold;
   padding: 0 10px;
@@ -214,7 +215,8 @@ header {
   margin-left: 30px;
   padding: 15px;
 }
-.infoContents p{
+
+.infoContents p {
   font-size: 12px;
   line-height: 1.6;
 }
@@ -226,6 +228,7 @@ header {
   padding: 10px 20px;
   margin-bottom: 10px;
 }
+
 #shop:hover {
   opacity: 0.5;
 }
@@ -313,11 +316,11 @@ header {
   top: -12px;
 }
 
-
 /* フッター */
 footer {
   margin-bottom: 30px;
 }
+
 /* フッターナビ */
 #footerNavWrapper {
   background-color: #CDC0BD;
@@ -333,7 +336,7 @@ footer {
   justify-content: space-between;
 }
 
-#footerNavWrapper ul li a{
+#footerNavWrapper ul li a {
   display: block;
   font-size: 14px;
   padding: 0 10px;
@@ -345,7 +348,6 @@ footer {
   opacity: 0.8;
   border-radius: 5px;
 }
-
 
 /* コピーライト他 */
 #footerInfo {

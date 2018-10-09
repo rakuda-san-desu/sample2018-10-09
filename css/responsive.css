@@ -1,5 +1,5 @@
-@media(max-width: 828px){
-  /* この中にスマホ用のcssを記述 */
+@media(max-width: 828px) {
+
   /* 共通 */
   body {
     background-color: #FEFFFF;
@@ -12,61 +12,61 @@
   /* レスポンシブ時表示　ヘッダーメニュー */
   .accbox {
     display: block;
-    text-align:right;
+    text-align: right;
     width: 100%;
     position: fixed;
     top: 0px;
     z-index: 999;
-}
+  }
 
-/*ラベル*/
+  /*ラベル*/
   .accbox {
-        background :#333333;
+    background: #333333;
   }
 
   .accbox p {
     margin: 10px 0;
   }
 
-  .accbox p label  i {
+  .accbox p label i {
     margin: 0 10px;
-    }
+  }
 
-.accbox label {
-    padding : 10px;
+  .accbox label {
+    padding: 10px;
     color: #F4F4F6;
     font-weight: bold;
-    cursor :pointer;
-}
+    cursor: pointer;
+  }
 
-/*ラベルホバー時*/
-.accbox label p:hover {
-  opacity: 0.5;
-}
+  /*ラベルホバー時*/
+  .accbox label p:hover {
+    opacity: 0.5;
+  }
 
-/*チェックは隠す*/
-.accbox input {
+  /*チェックは隠す*/
+  .accbox input {
     display: none;
-}
+  }
 
-/*中身を非表示にしておく*/
-.accbox .accshow {
+  /*中身を非表示にしておく*/
+  .accbox .accshow {
     height: 0;
     padding: 0;
     overflow: hidden;
     opacity: 0;
     transition: 0.8s;
-}
+  }
 
-/*クリックで中身表示*/
-.cssacc:checked + .accshow {
+  /*クリックで中身表示*/
+  .cssacc:checked+.accshow {
     height: auto;
     padding: 5px;
     background: #eaeaea;
     opacity: 1;
-}
+  }
 
-/* ヘッダーメニューリストの中身 */
+  /* ヘッダーメニューリストの中身 */
   .accshow ul {
     display: block;
     list-style: none;
@@ -74,7 +74,7 @@
     font-size: 18px;
     font-weight: bolder;
     margin: 0;
-    padding:0;
+    padding: 0;
   }
 
   .accshow ul li {
@@ -86,14 +86,12 @@
     border-top: none
   }
 
-  .accshow ul li:hover{
+  .accshow ul li:hover {
     opacity: 0.5;
   }
-/* ここまでレスポンシブ時表示　ヘッダーメニュー */
-
+  /* ここまでレスポンシブ時表示　ヘッダーメニュー */
 
   /* ヘッダー部分　ページトップ */
-
   header {
     text-align: center;
   }
@@ -104,7 +102,7 @@
   }
 
   #headerRogo {
-    display:block;
+    display: block;
   }
 
   #headerRogo img {
@@ -126,14 +124,12 @@
     font-size: 36px;
     text-align: center;
   }
-
   /* ページトップここまで */
 
   /* ヘッダー部分　画像スライド */
   .copy {
     font-size: 5vw;
   }
-
 
   /* グローバルナビオフ */
   #globalNavi {
@@ -147,7 +143,7 @@
     margin: 0;
   }
 
-/* お知らせ */
+  /* お知らせ */
   #mainInfo {
     padding: 0;
   }
@@ -180,7 +176,7 @@
     display: block;
   }
 
-  .infoContents  {
+  .infoContents {
     width: 80%;
     margin: 10px auto;
   }
@@ -188,7 +184,6 @@
   .infoContents time {
     font-size: 14px;
     font-weight: bold;
-
   }
 
   .infoContents p {
