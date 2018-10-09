@@ -1,0 +1,246 @@
+@media(max-width: 828px){
+  /* この中にスマホ用のcssを記述 */
+  /* 共通 */
+  body {
+    background-color: #FEFFFF;
+  }
+
+  .contentsWidth {
+    width: 100%;
+  }
+
+  /* レスポンシブ時表示　ヘッダーメニュー */
+  .accbox {
+    display: block;
+    text-align:right;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    z-index: 999;
+}
+
+/*ラベル*/
+  .accbox {
+        background :#333333;
+  }
+
+  .accbox p {
+    margin: 10px 0;
+  }
+
+  .accbox p label  i {
+    margin: 0 10px;
+    }
+
+.accbox label {
+    padding : 10px;
+    color: #F4F4F6;
+    font-weight: bold;
+    cursor :pointer;
+}
+
+/*ラベルホバー時*/
+.accbox label p:hover {
+  opacity: 0.5;
+}
+
+/*チェックは隠す*/
+.accbox input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.accbox .accshow {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.cssacc:checked + .accshow {
+    height: auto;
+    padding: 5px;
+    background: #eaeaea;
+    opacity: 1;
+}
+
+/* ヘッダーメニューリストの中身 */
+  .accshow ul {
+    display: block;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 0;
+    padding:0;
+  }
+
+  .accshow ul li {
+    border-top: 1px solid #FEFFFF;
+    padding: 10px;
+  }
+
+  .accshow ul li:first-child {
+    border-top: none
+  }
+
+  .accshow ul li:hover{
+    opacity: 0.5;
+  }
+/* ここまでレスポンシブ時表示　ヘッダーメニュー */
+
+
+  /* ヘッダー部分　ページトップ */
+
+  header {
+    text-align: center;
+  }
+
+  #headerWrapper {
+    display: block;
+    text-align: center;
+  }
+
+  #headerRogo {
+    display:block;
+  }
+
+  #headerRogo img {
+    margin-top: 120px;
+  }
+
+  #headerRogo h1 {
+    font-size: 36px;
+  }
+
+  #headerInfo {
+    font-weight: bold;
+    margin-top: 80px;
+  }
+
+  /* レスポンシブ時下矢印　表示 */
+  #arrow .fa {
+    display: block;
+    font-size: 36px;
+    text-align: center;
+  }
+
+  /* ページトップここまで */
+
+  /* ヘッダー部分　画像スライド */
+  .copy {
+    font-size: 5vw;
+  }
+
+
+  /* グローバルナビオフ */
+  #globalNavi {
+    display: none;
+  }
+
+  /* メインコンテンツ */
+  /* カラムデザインオフ */
+  #mainContents {
+    display: block;
+    margin: 0;
+  }
+
+/* お知らせ */
+  #mainInfo {
+    padding: 0;
+  }
+
+  #mainInfo h1 {
+    font-size: 28px;
+    text-align: center;
+    letter-spacing: 8px;
+    border-radius: 0px;
+    margin-bottom: -10px;
+  }
+
+  .infoBox {
+    display: block;
+    text-align: center;
+    border-radius: 0px;
+  }
+
+  .infoBox h2 {
+    font-size: 18px;
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .infoBox img {
+    vertical-align: bottom;
+  }
+
+  .infoContentsWrapper {
+    display: block;
+  }
+
+  .infoContents  {
+    width: 80%;
+    margin: 10px auto;
+  }
+
+  .infoContents time {
+    font-size: 14px;
+    font-weight: bold;
+
+  }
+
+  .infoContents p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  /* メインコンテンツ内ＩＮＦＯ  */
+  #subInfo {
+    margin: 30px 0;
+    padding: 0px;
+  }
+
+  #shopInfo {
+    background-color: #F4F4F6;
+    margin: 30px 0;
+    padding-bottom: 10px;
+  }
+
+  #shopInfo table {
+    font-size: 16px;
+    background-color: #FEFFFF;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+  }
+
+  /* フッターナビ */
+  #footerNavWrapper ul {
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
+
+  #footerNavWrapper ul li {
+    border-top: 1px solid #FEFFFF;
+  }
+
+  #footerNavWrapper ul li:first-child {
+    border-top: none
+  }
+
+  /* フッター */
+  #footerInfo {
+    display: block;
+  }
+
+  #footerRogo {
+    text-align: center;
+  }
+
+  #copyright {
+    text-align: center;
+  }
+}
