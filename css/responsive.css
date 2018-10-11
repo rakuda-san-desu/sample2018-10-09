@@ -10,8 +10,10 @@
   }
 
   /* レスポンシブ時表示　ヘッダーメニュー */
-  .accbox {
+  #headerNav {
     display: block;
+    background: #333333;
+    color: #F4F4F6;
     text-align: right;
     width: 100%;
     position: fixed;
@@ -19,56 +21,22 @@
     z-index: 999;
   }
 
-  /*ラベル*/
-  .accbox {
-    background: #333333;
-  }
-
-  .accbox p {
-    margin: 10px 0;
-  }
-
-  .accbox p label i {
-    margin: 0 10px;
-  }
-
-  .accbox label {
-    padding: 10px;
-    color: #F4F4F6;
-    font-weight: bold;
-    cursor: pointer;
+  #headerNav p {
+    margin: 10px;
   }
 
   /*ラベルホバー時*/
-  .accbox label p:hover {
+  #headerNav p:hover {
     opacity: 0.5;
   }
 
-  /*チェックは隠す*/
-  .accbox input {
-    display: none;
-  }
-
-  /*中身を非表示にしておく*/
-  .accbox .accshow {
-    height: 0;
-    padding: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: 0.8s;
-  }
-
-  /*クリックで中身表示*/
-  .cssacc:checked+.accshow {
-    height: auto;
-    padding: 5px;
-    background: #eaeaea;
-    opacity: 1;
-  }
-
   /* ヘッダーメニューリストの中身 */
-  .accshow ul {
-    display: block;
+  #headerNavShow {
+        display: none;
+  }
+
+  #headerNavShow ul {
+    background-color: #F4F4F6;
     list-style: none;
     text-align: center;
     font-size: 18px;
@@ -77,16 +45,16 @@
     padding: 0;
   }
 
-  .accshow ul li {
+  #headerNavShow ul li {
     border-top: 1px solid #FEFFFF;
     padding: 10px;
   }
 
-  .accshow ul li:first-child {
+  #headerNavShow ul li:first-child {
     border-top: none
   }
 
-  .accshow ul li:hover {
+  #headerNavShow ul li:hover {
     opacity: 0.5;
   }
   /* ここまでレスポンシブ時表示　ヘッダーメニュー */
