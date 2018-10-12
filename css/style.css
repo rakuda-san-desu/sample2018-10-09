@@ -47,6 +47,7 @@ header {
 
 #headerWrapper {
   padding: 10px;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: space-between;
@@ -57,6 +58,7 @@ header {
 
 #headerRogo {
   margin: 0;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-align-items: center;
@@ -149,6 +151,7 @@ header {
 /* メインコンテンツ */
 #mainContents {
   margin-bottom: 30px;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
 }
@@ -187,6 +190,7 @@ header {
 }
 
 .infoContentsWrapper {
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
 }
@@ -286,6 +290,7 @@ header {
 
 /* SNSアイコン */
 #sns {
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: space-around;
@@ -340,6 +345,7 @@ footer {
 #footerNavWrapper ul {
   list-style: none;
   padding: 10px 0;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: space-between;
@@ -363,6 +369,7 @@ footer {
 #footerInfo {
   font-size: 12px;
   padding: 0 10px;
+  -js-display: flex;
   display: -webkit-flex;
   display: flex;
   -webkit-justify-content: space-between;
