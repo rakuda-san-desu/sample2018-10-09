@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="ja">
 
 <!-- ヘッド情報 -->
@@ -11,7 +12,7 @@
   <link rel="stylesheet" href="css/style.css">
 
   <!-- Font Awesome -->
-  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
 
   <!-- レスポンシブ対応 -->
   <meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -27,16 +28,15 @@
 </head>
 
 <!-- ボディー -->
+
 <body>
   <!-- ページヘッダー部分 -->
   <header>
 
     <!-- レスポンシブ時ヘッダーメニュー -->
     <div id="headerNav">
-      <p id="openBtn">サイトメニュー▼</p>
-
-        <div id="headerNavShow">
-        <!--ここに隠す中身-->
+      <p id="openBtn">サイトメニュー<i class="fa fa-bars" aria-hidden="true"></i></p>
+      <div id="headerNavShow">
         <ul>
           <li><a href="#">亀井野酒造について</a></li>
           <li><a href="#">亀井野酒造の日本酒</a></li>
@@ -47,7 +47,6 @@
         </ul>
       </div>
     </div>
-
 
     <div id="headerWrapper" class="maxWidth">
       <!-- ページヘッダー部分　ロゴ -->
@@ -71,13 +70,16 @@
     <ul class="bxslider">
       <li>
         <p class="copy">季節を感じるお酒あります</p>
-        <img class="bxSliderImg" src="images\top01.jpg"></li>
+        <img class="bxSliderImg" src="images\top01.jpg">
+      </li>
       <li>
         <p class="copy">美味しいお米から美味しいお酒</p>
-        <img class="bxSliderImg" src="images\top02.jpg"></li>
+        <img class="bxSliderImg" src="images\top02.jpg">
+      </li>
       <li>
         <p class="copy">富士の名水が生んだ日本酒</p>
-        <img class="bxSliderImg" src="images\top03.jpg"></li>
+        <img class="bxSliderImg" src="images\top03.jpg">
+      </li>
     </ul>
   </div>
 
@@ -103,76 +105,82 @@
       <h1>お知らせ</h1>
       <div class="infoBox">
         <h2>試飲会を開催します！</h1>
-        <div class="infoContentsWrapper">
-          <img src="images\news-03.jpg">
-          <div class="infoContents">
-            <time>2018-08-24</time>
-            <p>9月14日（金）～9月24日（月）試飲会を開催します。季節限定や本店販売のみの貴重なお酒も気軽にお試しいただけるチャンスです！期間中は毎日営業しておりますので、ぜひ足をお運びくださいませ。</p>
+          <div class="infoContentsWrapper">
+            <img src="images\news-03.jpg">
+            <div class="infoContents">
+              <time>2018-08-24</time>
+              <p>9月14日（金）～9月24日（月）試飲会を開催します。季節限定や本店販売のみの貴重なお酒も気軽にお試しいただけるチャンスです！期間中は毎日営業しておりますので、ぜひ足をお運びくださいませ。</p>
+            </div>
           </div>
-        </div>
       </div>
       <div class="infoBox">
         <h2>酒蔵レストランＯＰＥＮ</h1>
-        <div class="infoContentsWrapper">
-          <img src="images\news-02.jpg">
-          <div class="infoContents">
-            <time>2018-06-1</time>
-            <p>7月13日（金）11：00より、亀井野酒造のお酒と、お酒に合った美味しい和食を楽しんでいただける『酒蔵レストラン　かめいの』がオープンします！7月中にご来店のお客様には「亀井野酒造の仕込み水ボトル」をプレゼント！！詳しくはこちらから→<a href="#">酒蔵レストラン　かめいの</a></p>
+          <div class="infoContentsWrapper">
+            <img src="images\news-02.jpg">
+            <div class="infoContents">
+              <time>2018-06-1</time>
+              <p>7月13日（金）11：00より、亀井野酒造のお酒と、お酒に合った美味しい和食を楽しんでいただける『酒蔵レストラン　かめいの』がオープンします！7月中にご来店のお客様には「亀井野酒造の仕込み水ボトル」をプレゼント！！詳しくはこちらから→<a href="#">酒蔵レストラン　かめいの</a></p>
+            </div>
           </div>
-        </div>
       </div>
       <div class="infoBox">
-      <h2>酒蔵見学ツアー受付中</h1>
-        <div class="infoContentsWrapper">
-          <img src="images\news-01.jpg">
-          <div class="infoContents">
-            <time>2018-04-0</time>
-            <p>季節限定を行っておりました酒蔵見学ツアーが通年楽しんでいただけるようになりました。2名様から承っております。メールの場合は2営業日前、お電話の場合は前日までにご予約下さいませ。</p>
+        <h2>酒蔵見学ツアー受付中</h1>
+          <div class="infoContentsWrapper">
+            <img src="images\news-01.jpg">
+            <div class="infoContents">
+              <time>2018-04-0</time>
+              <p>季節限定を行っておりました酒蔵見学ツアーが通年楽しんでいただけるようになりました。2名様から承っております。メールの場合は2営業日前、お電話の場合は前日までにご予約下さいませ。</p>
+            </div>
           </div>
-        </div>
       </div>
     </aside>
     <!-- お知らせここまで -->
 
     <!-- メインコンテンツ内ＩＮＦＯ -->
     <aside id="subInfo">
-    <!-- ネットショップリンク -->
-    <a href="#">
-      <div id="shop">
-        <h1>mamazon<br>
-        <span>通販はこちら</span></h1>
-      </div>
-    </a>
-    <!-- 所在地・営業時間 -->
-    <div id="shopInfo">
-      <h1>亀井野酒造</h1>
-      <table>
-        <tr>
-          <th>住所</th><td>〒400-1234<br>山梨県富士五湖市1-2-3</td>
+      <!-- ネットショップリンク -->
+      <a href="#">
+        <div id="shop">
+          <h1>mamazon<br>
+            <span>通販はこちら</span></h1>
+        </div>
+      </a>
+      <!-- 所在地・営業時間 -->
+      <div id="shopInfo">
+        <h1>亀井野酒造</h1>
+        <table>
+          <tr>
+            <th>住所</th>
+            <td>〒400-1234<br>山梨県富士五湖市1-2-3</td>
           </tr>
           <tr>
-            <th>TEL/FAX</th><td>1234-56-7890</td>
+            <th>TEL/FAX</th>
+            <td>1234-56-7890</td>
           </tr>
           <tr>
-            <th>MAIL</th><td>kameino@mail.add</td>
+            <th>MAIL</th>
+            <td>kameino@mail.add</td>
           </tr>
           <tr>
-            <th>営業時間</th><td>10：00～16：00</td>
+            <th>営業時間</th>
+            <td>10：00～16：00</td>
           </tr>
           <tr>
-            <th>定休日</th><td>火曜日（祝日の場合は翌日）</td>
+            <th>定休日</th>
+            <td>火曜日（祝日の場合は翌日）</td>
           </tr>
         </table>
         <h2>酒蔵レストラン併設！！</h2>
       </div>
       <!-- MAP -->
       <div id="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6495.207182545406!2d138.74162327129582!3d35.51407902037094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60195fbb7cff1377%3A0xc92d049181fe9e2a!2z44GG44Gu5bO2!5e0!3m2!1sja!2sjp!4v1538457994253" width="270" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6495.207182545406!2d138.74162327129582!3d35.51407902037094!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60195fbb7cff1377%3A0xc92d049181fe9e2a!2z44GG44Gu5bO2!5e0!3m2!1sja!2sjp!4v1538457994253"
+          width="270" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       <!-- SNSアイコン -->
       <div id="sns">
         <a class="snsIcon" id="twitter" href="#"><i class="fab fa-twitter"></i></a>
-        <a class="snsIcon" id="facebook"href="#"><i class="fab fa-facebook-f"></i></a>
+        <a class="snsIcon" id="facebook" href="#"><i class="fab fa-facebook-f"></i></a>
         <a class="snsIcon" id="line" href="#"><i class="fab fa-line"></i></a>
       </div>
     </aside>

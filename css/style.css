@@ -59,14 +59,19 @@ header {
   margin: 0;
   display: -webkit-flex;
   display: flex;
-  -webkit-align-items: flex-end;
-  align-items: flex-end;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+#headerRogo img {
+  width: 80px;
+  height: 88px;
 }
 
 #headerRogo h1 {
   position: relative;
-  bottom: -16px;
-  font-size: 48px;
+  top: 5px;
+  font-size: 80px;
   margin: 0;
 }
 
@@ -85,9 +90,8 @@ header {
 #arrow .fa {
   display: none;
 }
+
 /* ページヘッダー部分ここまで */
-
-
 /* 画像スライド */
 #headImg {
   margin: 30px auto;
@@ -234,6 +238,7 @@ header {
 }
 
 #shop h1 {
+  display: block;
   font-size: 24px;
   line-height: 20px;
 }
@@ -361,9 +366,13 @@ footer {
   align-items: flex-start;
 }
 
+#footerRogo {
+  text-align: center;
+}
+
 #footerRogo h1 {
   font-size: 16px;
-  margin-top: 10px;
+  margin: 10px 0;
 }
 
 #cautions {

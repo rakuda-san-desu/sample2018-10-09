@@ -25,6 +25,10 @@
     margin: 10px;
   }
 
+  #headerNav p i {
+    margin-left: 10px;
+  }
+
   /*ラベルホバー時*/
   #headerNav p:hover {
     opacity: 0.5;
@@ -32,7 +36,7 @@
 
   /* ヘッダーメニューリストの中身 */
   #headerNavShow {
-        display: none;
+    display: none;
   }
 
   #headerNavShow ul {
@@ -41,7 +45,6 @@
     text-align: center;
     font-size: 18px;
     font-weight: bolder;
-    margin: 0;
     padding: 0;
   }
 
@@ -57,8 +60,8 @@
   #headerNavShow ul li:hover {
     opacity: 0.5;
   }
-  /* ここまでレスポンシブ時表示　ヘッダーメニュー */
 
+  /* ここまでレスポンシブ時表示　ヘッダーメニュー */
   /* ヘッダー部分　ページトップ */
   header {
     text-align: center;
@@ -92,8 +95,8 @@
     font-size: 36px;
     text-align: center;
   }
-  /* ページトップここまで */
 
+  /* ページトップここまで */
   /* ヘッダー部分　画像スライド */
   .copy {
     font-size: 5vw;
@@ -138,6 +141,7 @@
 
   .infoBox img {
     vertical-align: bottom;
+    margin-top: 10px;
   }
 
   .infoContentsWrapper {

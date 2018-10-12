@@ -5,16 +5,13 @@ $(function() {
    if($headerNavShow.hasClass('open')) {
      $headerNavShow.removeClass('open');
      $headerNavShow.slideUp();
-     $('#openBtn').text('サイトメニュー▼');
+     $('#openBtn').html('サイトメニュー<i class="fa fa-bars" aria-hidden="true"></i>');
     } else {
      $headerNavShow.addClass('open');
      $headerNavShow.slideDown();
-     $('#openBtn').text('メニューを閉じる▲');
+     $('#openBtn').html('メニューを閉じる<i class="fa fa-times-circle" aria-hidden="true"></i>');
    }
  });
-
-
-
 
   // スライダー
   $(document).ready(function() {
