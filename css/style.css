@@ -274,11 +274,12 @@ header {
 
 /* 地図 */
 #map {
+  text-align: center;
   margin: 30px auto;
 }
 
 #map iframe {
-  width: 250px;
+  width: 270px;
   height: 200px;
   border: none;
 }
