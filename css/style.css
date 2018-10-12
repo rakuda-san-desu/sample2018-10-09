@@ -274,9 +274,13 @@ header {
 
 /* 地図 */
 #map {
-  width: 270px;
-  height: 200px;
   margin: 30px auto;
+}
+
+#map iframe {
+  width: 250px;
+  height: 200px;
+  border: none;
 }
 
 /* SNSアイコン */
@@ -368,6 +372,11 @@ footer {
 
 #footerRogo {
   text-align: center;
+}
+
+#footerRogo img{
+  width:  70px;
+  height: 77px;
 }
 
 #footerRogo h1 {
