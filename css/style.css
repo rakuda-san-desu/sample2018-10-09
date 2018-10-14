@@ -272,6 +272,10 @@ header {
   vertical-align: top;
 }
 
+#shopInfo table td a {
+  text-decoration: underline;
+}
+
 #shopInfo h2 {
   font-size: 14px;
 }
